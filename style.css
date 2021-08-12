@@ -1,3 +1,8 @@
+/* footer start  */
+footer {
+  /* overflow: hidden; */
+}
+/* image section  */
 .Image-section {
   position: relative;
   background-color: #000;
@@ -83,6 +88,41 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* information section  */
+
 .information-section {
   background-color: #252525;
 }
+.information-text {
+  color: #787878;
+}
+.information-text h3 {
+  font-size: 24px;
+}
+.information-text p {
+  font-size: 14px;
+}
+.links p a {
+  color: #787878;
+}
+.links p a:hover {
+  color: green;
+}
+/* copy right section  */
+
+.copy-right {
+  background-color: #121212;
+}
+.copy-right-page {
+  color: #787878;
+}
+.copy-right-page:hover {
+  color: #337ab7;
+}
+.copy-right-socials {
+  color: #787878;
+}
+.copy-right-socials:hover {
+  color: #337ab7;
+}
+/* footer end  */
