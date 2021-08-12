@@ -1,32 +1,88 @@
-.Image-section{
-    position: relative;
-     
+.Image-section {
+  position: relative;
+  background-color: #000;
+  background-image: url(/images/AdobeStock_15346663.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 4rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.footer-image{
-    object-fit: cover;
-    width: 100%;
-    height: 440px;
+.footer-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 1;
 }
 
-.animated-text{
-    position: absolute;
-    top: 10%;
-    left: 0;
-    right: 0;
-    font-size: 41px;
-    color: white;
+.animated-text {
+  margin-bottom: 8rem;
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+  z-index: 2;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
 }
-.animation{
-    white-space: nowrap;
-    overflow: hidden;
-    animation: text 5s steps(20) infinite;
-    border-right: 3px solid white;
+
+.animation {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: text 5s steps(20) infinite;
+  border-right: 3px solid white;
+  transform: translateY(0.25rem);
 }
-@keyframes text{
-    0%{
-        width: 0ch;
-    }
-    50%{
-        width: 17ch;
-    }
+@keyframes text {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 17ch;
+  }
+}
+
+.service {
+  display: block;
+  width: 80vw;
+  background-color: rgb(0, 128, 0, 0.5);
+  color: #fff;
+  font-weight: normal;
+  padding: 6rem 4rem 4rem;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.service span {
+  background: #213a8f;
+  border-radius: 50%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  position: absolute;
+  height: 112px;
+  width: 112px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.information-section {
+  background-color: #252525;
 }
